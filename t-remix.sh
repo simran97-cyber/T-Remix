@@ -81,7 +81,7 @@ echo "
 
 echo
 echo "             ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::☆" |lolcat -t
-echo "                             s c r i p t  b y  a s h i s h            " |lolcat -t
+echo "                             s c r i p t  b y  S i m r a n           " |lolcat -t
 echo "             ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::☆" |lolcat -t
 
 sleep 3
@@ -151,7 +151,7 @@ clear
 echo
 echo
 tput civis
-echo -e "\033[1;34m[*]\e[33m Setting login information \e[m"
+echo -e "\033[1;34m[*]\e[33m Setting login informationinformation \e[m"
 echo
 sleep 3                                                                  
 echo -e "\033[1;34m[*]\e[33m Installing Login Packages \e[m "
@@ -185,7 +185,7 @@ echo -e "\e[32m
 		       ╚══════╝ ╚════╝  ╚═════╝ ╚═╝╚═╝  ╚══╝ v 2.0 "
 echo 
 echo "            ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::☆" |lolcat -t
-echo "                            s c r i p t  b y  a s h i s h            " |lolcat -t
+echo "                            s c r i p t  b y  s i m r a n           " |lolcat -t
 echo "            ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::☆" |lolcat -t
 
 sleep 4
