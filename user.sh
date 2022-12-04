@@ -257,8 +257,8 @@ tput cnorm
 
 echo "PS1='\[\e[1;34m
 
-echo "  Next Command ---  " |lolcat
-\a─[\033[1;32m\w\033[1;34m]\033[1;34m
+127.0.0.1
+\a─[\033[1;32m\$\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\]\[\e[1;32m\] ' " > ash.txt 
 
 cat "t-ban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
