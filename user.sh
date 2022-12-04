@@ -257,7 +257,7 @@ tput cnorm
 
 echo "PS1='\[\e[1;34m
 
-figlet Next command --- |lolcat -t
+echo "  Next Command ---  " |lolcat
 \a─[\033[1;32m\w\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\]\[\e[1;32m\] ' " > ash.txt 
 
