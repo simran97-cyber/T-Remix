@@ -2,16 +2,16 @@
 # http=//xcolors.net/dl/neon
 # Neon Properties
 
-background=#171717
+background=#000000
 foreground=#F8F8F8
 # black
-color0=#171717
+color0=#000000
 color8=#38252C
 # red
 color1=#D81765
 color9=#FF0000
 # green
-color2=#49e971
+color2=#33ff33
 color10=#79ff4d
 # yellow
 color3=#FFA800
