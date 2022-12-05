@@ -3,4 +3,4 @@ echo
 echo "      
 < ━━━━━━━━ [★] 1 . 2 . 7 . 0 . 0 . 1 [★] ━━━━━━━━ >  " |lolcat                 
 echo
-tput norma
+tput cnorm
