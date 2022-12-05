@@ -258,7 +258,7 @@ tput cnorm
 echo "PS1='\[\e[1;34m
 echo
 echo "[*] 127.0.0.1 " |lolcat
-sleep 2
+break
 \a─[\033[1;32m\$\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\]\[\e[1;32m\] ' " > ash.txt 
 
