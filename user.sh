@@ -254,8 +254,8 @@ fi
 done
 tput cnorm
 # custom PS1, validating user input and user define variable
-
-ech
+echo "PS1='\[\e[1;34m
+ 127.0.0.1
 \a─[\033[1;32m\$\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\]\[\e[1;32m\] ' " > ash.txt 
 
