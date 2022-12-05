@@ -255,10 +255,9 @@ done
 tput cnorm
 # custom PS1, validating user input and user define variable
 echo "PS1='\[\e[1;34m
-tput civis
-echo 
-echo " < ━━━[★] 1 2 7 . 0 . 0 . 1 [★] ━━━ >  " |lolcat                 
-echo
+
+ [*]< ━━━[★] 1 2 7 . 0 . 0 . 1 [★] ━━━ >  |lolcat -t                
+
 \a─[\033[1;32m\$\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\]\[\e[1;32m\] ' " > ash.txt 
 
