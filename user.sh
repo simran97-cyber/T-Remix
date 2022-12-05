@@ -256,7 +256,7 @@ tput cnorm
 # custom PS1, validating user input and user define variable
 echo "PS1='\[\e[1;34m               
 echo
-echo "[*] < ━━━[★] 1 2 7 . 0 . 0 . 1 [★] ━━━ >" |lolcat -t
+echo "figlet -t< ━━━[★] 1 2 7 . 0 . 0 . 1 [★] ━━━ >" |lolcat -t
 sleep 2
 echo
 break
