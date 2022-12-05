@@ -256,7 +256,7 @@ tput cnorm
 # custom PS1, validating user input and user define variable
 echo "PS1='\[\e[1;34m  
 \a\033[1;93m\033[1;34m ' " > Simr.txt
-\a─[\033[1;32m\$\033[1;34m]\033[1;34m
+\a─[\033[1;32m\w\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\]\[\e[1;32m\] ' " > ash.txt 
 
 cat "t-ban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
