@@ -105,13 +105,13 @@ elif  [[ $userfont == 4 || $userfont == 04 ]]; then
 echo "figlet -f big '                          $varbanner' |lolcat " > t-ban.txt
 echo
 echo "[*] Applying T-Remix Banner " |lolcat -t
-sleep 2
+sleep 0
 echo
 echo "[*] please wait " |lolcat -t
-sleep 3
+sleep 2
 echo
 echo "[*] Applied Successfuly" |lolcat -t
-sleep 2
+sleep 1
 break
 elif  [[ $userfont == 5 || $userfont == 05 ]]; then
 echo "figlet -f starwars '   $varbanner' |lolcat " > t-ban.txt
@@ -169,13 +169,13 @@ elif  [[ $userfont == 9 || $userfont == 09 ]]; then
 echo "figlet -f Speed '         $varbanner' |lolcat " > t-ban.txt
 echo
 echo "[*] Applying T-Remix Banner " |lolcat -t
-sleep 2
+sleep 0
 echo
 echo "[*] please wait " |lolcat -t
-sleep 3
+sleep 2
 echo
 echo "[*] Applied Successfuly" |lolcat -t
-sleep 2
+sleep 1
 echo
 break
 elif  [ $userfont == 10 ]; then
@@ -236,26 +236,26 @@ echo "echo" > t-ban.txt
 echo "figlet -f ASCII-Shadow '     $varbanner' |lolcat -t " >> t-ban.txt 
 echo
 echo "[*] Applying T-Remix Banner " |lolcat -t
-sleep 2
+sleep 1
 echo
 echo "[*] please wait " |lolcat -t
-sleep 3
+sleep 2
 echo
 echo "[*] Applied Successfuly" |lolcat -t
-sleep 2
+sleep 1
 echo
 break
 else
 echo
 echo -e  "\e[33m[\e[31m!\e[33m] \e[31mInvalid option try again \e[m"
-sleep 2
+sleep 1
 clear
 fi
 done
 tput cnorm
 # custom PS1, validating user input and user define variable
 echo "PS1='\[\e[1;34m] 
-'cat "Simr.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc'
+\a┌─[\033[1;93m \< ━━[★] T E R M U X [★]━━ >\033[1;34m
 \a─[\033[1;32m\w\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\]\[\e[1;32m\] ' " > ash.txt 
 
@@ -264,6 +264,8 @@ cat "t-ban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "user.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cat "ash.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+
+cat "Simr.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 sleep 1
 
