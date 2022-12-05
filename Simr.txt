@@ -1,5 +1,6 @@
 
 echo 
 echo "      
-< ━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━ >  " |lolcat                 
+< ━━━━━━━━ [★] 1 . 2 . 7 . 0 . 0 . 1 [★] ━━━━━━━━ >  " |lolcat                 
 echo
+tput norma
